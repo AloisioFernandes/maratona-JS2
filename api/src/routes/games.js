@@ -2,9 +2,26 @@ const express = require('express')
 const Games = require('../models/Games')
 const router = express.Router()
 
+const DEFAULT_LIMIT = 10
+const DEFAULT_PAGE = 1
+
 router.get('/', async (req, res) => {
+  const {
+    limit,
+    page,
+    fields,
+    orderBy,
+    sortBy,
+    q
+  } = req.query
+
   const criteria = {
-    limit: 10
+    limit: Number(limit) || DEFAULT_LIMIT,
+    page: Number(page) || DEFAULT_PAGE,
+    fields: fields || null,
+    orderBy: orderBy || 'title',
+    sortBy: sortBy !== undefined ? Number(sortBy) : 1, // 1 para crescente, -1 para decrescente
+    q: q || ''
   }
   
   const result = await Games.find(criteria)
