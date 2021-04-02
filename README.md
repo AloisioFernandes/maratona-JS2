@@ -4,4 +4,4 @@ Backend busca dados de arquivo games.json e salva no MongoDB
 executar node seeds/import.js
 NodeJS
 MongoDB (configurado por .env DATABASE)
-Express
+Express (paginação e query params)
