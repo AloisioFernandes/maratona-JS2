@@ -41,5 +41,11 @@ module.exports = {
     if(orderBy) query.sort({ [orderBy]: sortBy }) // ordenação por atributo indicado pelo orderBy na direção indicada pelo sortBy
 
     return query.exec()
+  },
+
+  store: (data) => {
+    const game = new Game(data)
+
+    return game.save()
   }
 }

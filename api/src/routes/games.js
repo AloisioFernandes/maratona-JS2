@@ -29,4 +29,11 @@ router.get('/', async (req, res) => {
   return res.json({ message: 'Games OK', data: result })
 })
 
+router.post('/', async (req, res) => {
+  const { body } = req
+  const data = await Games.store(body)
+
+  return res.json({ message: 'Game Stored', data: data })
+})
+
 module.exports = router
