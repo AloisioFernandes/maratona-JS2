@@ -51,5 +51,9 @@ module.exports = {
 
   update: (id, data, options={new: true}) => {
     return Game.findOneAndUpdate({ _id: id }, data, options)
+  },
+
+  destroy: (id) => {
+    return Game.deleteOne({ _id: id })
   }
 }
