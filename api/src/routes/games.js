@@ -36,4 +36,12 @@ router.post('/', async (req, res) => {
   return res.json({ message: 'Game Stored', data: data })
 })
 
+router.put('/:id', async (req, res) => {
+  const { body, params } = req
+  const { id } = params
+  const game = await Games.update(id, body)
+
+  return res.json({ message: 'Game updated', data: game })
+})
+
 module.exports = router
