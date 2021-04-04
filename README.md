@@ -40,7 +40,7 @@ Após isso, acesse a pasta api e crie um arquivo .env contendo a string de conex
 
 Em seguida, acesse novamente a pasta api e utilize o seguinte comando:
  - node seeds/import.js
-<p><img src=".github/Import.png" alt="Import" width="600" border="0"></p>
+<p><img src=".github/Import.png" alt="Import" width="800" border="0"></p>
 
 ## Quarto passo - acessar projeto
 Acesse a pasta api e utilize o comando através do terminal:
