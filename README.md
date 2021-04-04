@@ -33,14 +33,14 @@ Digite o seguinte comando dentro da pasta api através do terminal:
 
 ## Terceiro passo - configurar banco de dados
 Utilize o comando mongod para iniciar o MongoDB:
-<p><img src=".github/Mongod.png" alt="Mongod" width="400" border="0"></p>
+<p><img src=".github/Mongod.png" alt="Mongod" width="600" border="0"></p>
 
 Após isso, acesse a pasta api e crie um arquivo .env contendo a string de conexão com o banco MongoDB:
-<p><img src=".github/ENV" alt="ENV" width="400" border="0"></p>
+<p><img src=".github/ENV.png" alt="ENV" width="600" border="0"></p>
 
 Em seguida, acesse novamente a pasta api e utilize o seguinte comando:
  - node seeds/import.js
-<p><img src=".github/Import.png" alt="Import" width="400" border="0"></p>
+<p><img src=".github/Import.png" alt="Import" width="600" border="0"></p>
 
 ## Quarto passo - acessar projeto
 Acesse a pasta api e utilize o comando através do terminal:
