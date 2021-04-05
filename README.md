@@ -38,7 +38,7 @@ Utilize o comando mongod para iniciar o MongoDB:
 Após isso, acesse a pasta api e crie um arquivo .env contendo a string de conexão com o banco MongoDB:
 <p><img src=".github/ENV.png" alt="ENV" width="600" border="0"></p>
 
-Em seguida, acesse novamente a pasta api e utilize o seguinte comando:
+Em seguida, acesse novamente a pasta api e utilize o seguinte comando para inserir os dados iniciais no banco:
  - node seeds/import.js
 <p><img src=".github/Import.png" alt="Import" width="800" border="0"></p>
 
