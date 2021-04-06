@@ -1,7 +1,7 @@
 # Maratona JS 2
 <p>Projeto desenvolvido durante o evento Maratona JS 2 (29/03/2021 - 02/04/2021) por Emerson Broga. Inicialmente, a api irá buscar dados de um arquivo JSON e armazená-los no banco de dados MongoDB. Em seguida, o usuário poderá inserir, atualizar, listar e deletar dados do banco a partir de requisições http.</p>
 
-# Aplicação
+# Api
 <p align="center">
   <p><img align="center" src=".github/GET.png" alt="GET" width="800" border="0"></p>
   <p><img align="center" src=".github/POST.png" alt="POST" width="800" border="0"></p>
