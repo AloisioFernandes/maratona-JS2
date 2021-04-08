@@ -45,7 +45,7 @@ Em seguida, acesse novamente a pasta api e utilize o seguinte comando para inser
 ## Quarto passo - acessar projeto
 Acesse a pasta api e utilize o comando através do terminal:
  - npm start
-As requisições poderão ser feitas pelo endereço: http://localhost:3000/games
+As requisições poderão ser feitas pelo endereço: http://localhost:3000/games, neste projeto foi utilizado o Insomia para realizar as requisições.
 
 # Principais Tecnologias
  - [NodeJS](https://nodejs.org/en/)
